@@ -1,14 +1,20 @@
 import logo from './logo.svg';
-import './App.css';
-import { Navbar } from './components/Navbar'
-import { Switch, Route, Link } from 'react-router-dom'
+//import './App.css';
+import  Navbar  from './components/Navbar'
+import { Switch, Route, Link, Redirect } from 'react-router-dom'
 import { Individualbots } from './components/Individualbots';
+import {Bots} from './components/Bots'
+import './components/design.css'
+
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar /> 
       <Switch>
-        <Route path='/Individualbots' exact >< Individualbots /></Route>
+        <Route path='/' exact>
+          <Redirect to='/Bots'/></Route>
+        <Route path='/Individualbots/:id' >< Individualbots /></Route>
+        <Route path='/Bots' >< Bots /></Route>
       </Switch>
     </div>
   );

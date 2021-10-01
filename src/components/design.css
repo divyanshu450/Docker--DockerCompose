@@ -1,0 +1,70 @@
+.Navbar-Container {
+  width: 650px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: auto;
+  align-self: center;
+}
+.Dashboard-Items {
+  border-bottom: 1px solid black;
+}
+
+.Bot-Container {
+  border: 2px solid skyblue;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 650px;
+  height: auto;
+  align-self: center;
+}
+
+.rendering-bots {
+  width: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  border: 1px solid red;
+  align-items: center;
+}
+
+.Individual-Bot-Container {
+  display: flex;
+  width: 650px;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  border: 2px solid skyblue;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CAGR-TEXT {
+  color: lightseagreen;
+}
+.APP {
+  display: flex;
+  border: 5px solid blue;
+  justify-content: center;
+  align-items: center;
+}
+.CAGR{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bot-Name{
+    width: 150px;
+}
