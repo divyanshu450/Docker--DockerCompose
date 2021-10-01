@@ -3,7 +3,6 @@ import design from '../components/design.css'
 
 const Navbar = () => {
     const count=useSelector(state=>state.count)
-   // console.log(count)
     return (
       <div>
         <div className="Navbar-Container">

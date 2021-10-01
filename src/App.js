@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route path='/' exact>
           <Redirect to='/Bots'/></Route>
-        <Route path='/Individualbots/:id' >< Individualbots /></Route>
+        <Route path='/Bots-details/:id' >< Individualbots /></Route>
         <Route path='/Bots' >< Bots /></Route>
       </Switch>
     </div>
